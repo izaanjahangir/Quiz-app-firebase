@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App| Signin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">Quiz App</a>
+    </header>
+
+    <section>
+        <form id="form-signin">
+            <fieldset>
+                <legend>Signin form</legend>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email address...">    
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your email address...">    
+                </div>
+
+                <div class="input-group">
+                    <input type="submit" id="btn-signin" value="Login">
+                    <a href="signup.html" class="link">Need an account? Signup here...</a>
+                    <div id="loader">Logging in please wait...</div>
+                    <div id="output"></div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    
+    <script src="js/firebase-init.js"></script>
+    <script src="js/signin.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    
+    <style>
+        #output{
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body onLoad="loadMainPage()">
+    <header>
+        <a href="index.html">Quiz App</a>
+        <button class="btn btn-danger" id="btn-logout" onClick="signOut()">Logout</button>
+    </header>
+
+    <section>
+        <h1 id="greet">Hello User</h1>
+        <div id="output">
+            <p>You are in a middle of quiz</p>
+            <a href="quiz.html" class="btn-quiz" style="width: max-content;padding: 10px;font-size: 1em;">Return to Quiz</a>
+        </div>
+        <h1 style="padding: 30px">Start your quiz:</h1>
+        <div id="quizes">
+            <button class="btn-quiz" onClick="startQuiz('Introduction to Html')">Introduction to HTML</button>
+            <button class="btn-quiz" onClick="startQuiz('Introduction to CSS')">Introduction to CSS</button>            
+        </div>
+        <p id="loader">Fetching quiz...</p>
+    </section>
+    <script src="js/firebase-init.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- <script>
+        var userInfo;
+        var userUid;
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                userUid = user.uid;
+                database.ref(`users/${userUid}`).once('value')
+                    .then((data)=>{
+                        userInfo = data.val();
+                    })
+            }
+        });
+    </script> -->
+
+    <script>
+            
+            var greetEl = document.getElementById('greet');
+            greetEl.innerText = `Hello ${userInfo.firstname}`;
+    </script>
+</body>
+</html>

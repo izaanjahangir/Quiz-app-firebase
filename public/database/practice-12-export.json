@@ -1,0 +1,100 @@
+{
+  "Quiz" : {
+    "Introduction to CSS" : [ {
+      "choice" : [ "Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets", "Colorful Style Sheets" ],
+      "correct" : "Cascading Style Sheets",
+      "question" : "What does CSS stand for?"
+    }, {
+      "choice" : [ "< stylesheet>mystyle.css< /stylesheet>", "< style src='mystyle.css'>", "< link rel='stylesheet' type='text/css' href='mystyle.css'>" ],
+      "correct" : "< link rel='stylesheet' type='text/css' href='mystyle.css'>",
+      "question" : "What is the correct HTML for referring to an external style sheet?"
+    }, {
+      "choice" : [ "At the end of the document", "In the < body> section", "In the < head> section" ],
+      "correct" : "In the < head> section",
+      "question" : "Where in an HTML document is the correct place to refer to an external style sheet?"
+    }, {
+      "choice" : [ "< style>", "< link>", "< script>", " css" ],
+      "correct" : "< style>",
+      "question" : " Which HTML tag is used to define an internal style sheet?"
+    }, {
+      "choice" : [ "class", "style", "styles", "css" ],
+      "correct" : "style",
+      "question" : "Which HTML attribute is used to define inline styles?"
+    }, {
+      "choice" : [ "{body;color:black;}", "{body;color:black;}", "body:color=black;", "body {color: black;}" ],
+      "correct" : "body {color: black;}",
+      "question" : "Which is the correct CSS syntax?"
+    }, {
+      "choice" : [ "// this is a comment", "// this is a comment //", "' this is a comment", "/* this is a comment */" ],
+      "correct" : "/* this is a comment */",
+      "question" : "How do you insert a comment in a CSS file?"
+    }, {
+      "choice" : [ "background-color", "bg-color", "color" ],
+      "correct" : "background-color",
+      "question" : "Which property is used to change the background color?"
+    }, {
+      "choice" : [ "all.h1 {background-color:#FFFFFF;}", "h1 {background-color:#FFFFFF;}", "h1.all {background-color:#FFFFFF;}" ],
+      "correct" : "background-color:#FFFFFF;}",
+      "question" : "How do you add a background color for all <h1> elements?"
+    }, {
+      "choice" : [ "color", "text-color", "font-color", "fg-color" ],
+      "correct" : "color",
+      "question" : "Which CSS property is used to change the text color of an element?"
+    } ],
+    "Introduction to Html" : [ {
+      "choice" : [ "Home Tool Markup Language", "Hyper Text Markup Language", "Hyperlinks and Text Markup Language", "Hyper Text Madeup Language" ],
+      "correct" : "Hyper Text Markup Language",
+      "question" : "What does HTML stand for?"
+    }, {
+      "choice" : [ "< h1>", "< h6>", "< heading>", "< large>" ],
+      "correct" : "< h1>",
+      "question" : "Choose the correct HTML element for the largest heading:"
+    }, {
+      "choice" : [ "< br>", "< break>", "< lb>", "< hr>" ],
+      "correct" : "< br>",
+      "question" : "What is the correct HTML element for inserting a line break?"
+    }, {
+      "choice" : [ "< important>", "< b>", "< i>", "< strong>" ],
+      "correct" : "< strong>",
+      "question" : "Choose the correct HTML element to define important text"
+    }, {
+      "choice" : [ "< italic>", "< i>", "< em>", "< e>" ],
+      "correct" : "< em>",
+      "question" : "Choose the correct HTML element to define emphasized text"
+    }, {
+      "choice" : [ "< a name='http://www.w3schools.com'>W3Schools.com< /a>", "< a url='http://www.w3schools.com'>W3Schools.com< /a>", "< a>http://www.w3schools.com< /a>", "< a href='http://www.w3schools.com'>W3Schools< /a>" ],
+      "correct" : "< a href='http://www.w3schools.com'>W3Schools< /a>",
+      "question" : "What is the correct HTML for creating a hyperlink?"
+    }, {
+      "choice" : [ "^", ">", "/", "*" ],
+      "correct" : "/",
+      "question" : "Which character is used to indicate an end tag?"
+    }, {
+      "choice" : [ "< a href='url' target='new'>", "< a href='url' new>", "< a href='url' target='_blank'>", "< a href='url' target='new_page'>" ],
+      "correct" : "< a href='url' target='_blank'>",
+      "question" : "How can you open a link in a new tab/browser window?"
+    }, {
+      "choice" : [ "< thead>< body>< tr>", "< table>< tr>< td>", "< table>< tr>< tt>", "< table>< head>< tfoot>" ],
+      "correct" : "< table>< tr>< td>",
+      "question" : "Which of these elements are all < table> elements?"
+    }, {
+      "choice" : [ "True", "False" ],
+      "correct" : "True",
+      "question" : "Inline elements are normally displayed without starting a new line."
+    } ]
+  },
+  "scores" : {
+    "Maz75qTFh0hKS2jsGnkkIet5E6H2" : {
+      "Introduction to Html" : {
+        "score" : "30%"
+      }
+    }
+  },
+  "users" : {
+    "Maz75qTFh0hKS2jsGnkkIet5E6H2" : {
+      "email" : "izaan@izaan.com",
+      "firstname" : "izaan",
+      "lastname" : "jahangir"
+    }
+  }
+}

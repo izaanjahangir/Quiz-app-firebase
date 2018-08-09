@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App| Signup</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">Quiz App</a>
+    </header>
+
+    <section>
+        <form id="form-signup">
+            <fieldset>
+                <legend>Signup form</legend>
+                <div class="input-group">
+                    <label for="firstname">First name:</label>
+                    <input type="text" id="firstname" placeholder="Enter your first name...">
+                </div>
+
+                <div class="input-group">
+                    <label for="lastname">Last name:</label>
+                    <input type="text" id="lastname" placeholder="Enter your last name...">
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email address...">
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password...">
+                </div>
+
+                <div class="input-group">
+                    <label for="password2">Confirm password:</label>
+                    <input type="password" id="password2" placeholder="Confirm your password...">
+                </div>
+
+                <div class="input-group">
+                    <input type="submit" id="btn-signup" value="Create Account">
+                    <a href="signin.html" class="link">Sign in here...</a>
+                    <div id="output"></div>
+                    <div id="loader">Creating your account please wait...</div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    
+    <script src="js/firebase-init.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

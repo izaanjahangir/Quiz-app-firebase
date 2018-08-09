@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">Quiz App</a>
+        <button class="btn btn-danger" id="btn-logout" onClick="signOut()">Logout</button>
+    </header>
+
+    <section>
+        <h1 id="quiz-title">Quiz Title</h1>
+
+
+        <div id="progress-bar">
+            <div id="progress">Progress</div>
+        </div>
+
+
+        <div id="quiz-container"></div>
+        <div id="loader">Calculating Result...</div>
+    </section>
+    <script src="js/firebase-init.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
